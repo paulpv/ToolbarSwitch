@@ -40,10 +40,10 @@ public class MainActivity
         getMenuInflater().inflate(R.menu.menu_main, menu);
         MenuItem item = menu.findItem(R.id.action_switch);
         if (item != null) {
-            CharSequence title = item.getTitle();
+            //CharSequence title = item.getTitle();
             Switch action_bar_switch = (Switch) item.getActionView().findViewById(R.id.action_switch);
             if (action_bar_switch != null) {
-                action_bar_switch.setText(title);
+                //action_bar_switch.setText(title);
                 action_bar_switch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
                     @Override
                     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
