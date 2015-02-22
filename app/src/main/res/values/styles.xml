@@ -1,10 +1,8 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="AppTheme.Base">
-    </style>
+    <style name="AppTheme" parent="AppTheme.Base" />
 
-    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
         <!-- Set AppCompat’s actionBarStyle -->
         <!--
         <item name="actionBarStyle">@style/MyActionBarStyle</item>
@@ -22,8 +20,4 @@
     <style name="MyActionBarStyle">
     </style>
     -->
-
-    <color name="my_awesome_red">#F44336</color>
-    <color name="my_awesome_darker_red">#D32F2F</color>
-    <color name="my_awesome_red_accent">#FF5252</color>
 </resources>
