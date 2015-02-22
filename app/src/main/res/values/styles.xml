@@ -13,7 +13,7 @@
         <!-- Set AppCompat’s color theming attrs -->
         <item name="colorPrimary">@color/my_awesome_red</item>
         <item name="colorPrimaryDark">@color/my_awesome_darker_red</item>
-        <item name="colorAccent">@color/accent</item>
+        <item name="colorAccent">@color/my_awesome_red_accent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
@@ -25,5 +25,5 @@
 
     <color name="my_awesome_red">#F44336</color>
     <color name="my_awesome_darker_red">#D32F2F</color>
-    <color name="accent">#FF5252</color>
+    <color name="my_awesome_red_accent">#FF5252</color>
 </resources>
